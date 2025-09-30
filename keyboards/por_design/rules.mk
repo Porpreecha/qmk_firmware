@@ -1,0 +1,12 @@
+# rules.mk
+
+MCU = RP2040
+BOOTLOADER = rp2040
+
+# Features
+VIA_ENABLE = yes
+LTO_ENABLE = yes
+
+RGBLIGHT_ENABLE = yes
+RGB_MATRIX_ENABLE = no
+WS2812_DRIVER = vendor
